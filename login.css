@@ -1,0 +1,146 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+#app-container{
+    height: 100%;
+}
+#s1{
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+#s2{
+    height: 100%;
+    overflow: unset !important;
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 960px;
+    width: 100%;
+    min-height: 600px;
+    margin: 0px auto;
+    color: #33414f;
+    /* display: flex;s */
+    
+}
+#s3{
+    padding: 0 90px;
+    flex: 1;
+    text-align: start;
+}
+#s4{
+    display: flex;
+    flex-direction: column-reverse;
+    height: calc(100% - 320px);
+    background-color: #fff;
+    padding: 0;
+    position: relative;
+}
+#s5{
+    padding: 16px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin-left: 90px;
+    
+}
+#s6{
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1f1f1f;
+    padding: 16px 0 24px 0;
+}
+#s7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+#s8{
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .24px;
+    color: #1f1f1f;
+    padding-right: 8px;
+    padding-left: 0;
+}
+#s9{
+    box-sizing: content-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    text-align: left;
+    color: #35495e;
+    font-family: inherit;
+    font-size: 16px;
+    touch-action: manipulation;
+}
+#s10{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#s11{
+    border-color: #10a310 transparent transparent !important;
+    color: #10a310 !important;
+    position: relative;
+    right: 0;
+    top: 65%;
+    color: #999;
+    margin-top: -5px;
+    border-color: #999 transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    content: "";
+}
+.text{
+    font-family: "IBM Plex Sans";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #666;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 8px;
+    margin-left: 10px;
+}
+#s12{
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 16px 0;
+    color: #10a310;
+    border-bottom: 1px solid #e0e0e0;
+}
+#s13{
+    display: flex;
+    align-items: center;
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #10a310;
+    padding: 16px 0;
+    color: #10a310;
+}
+#rr{
+    text-decoration: none;
+    color: #666;
+}
+#rr1{
+    text-decoration: none;
+    color: #10a310;
+}

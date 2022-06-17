@@ -1,0 +1,135 @@
+#w1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 999;
+    /* animation: 0.5s fadeInUp ease; */
+}
+#w2{
+    padding: 16px;
+    text-align: start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    max-width: 460px;
+    /* z-index: 1; */
+    margin-left: 500px;
+}
+#w3{
+    height: 100%;
+    overflow: auto;
+    padding-top: 56px;
+    margin-left: 500px;
+    width: 80% !important;
+}
+#w4{
+    padding: 16px;
+    padding-top: 0;
+    height: calc(100% - 50px);
+    overflow: auto;
+    width: 460px;
+}
+#w5{
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.16px;
+    color: #1f1f1f;
+}
+#w6{
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: #666;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+#w7{
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 25px;
+}
+#w8{
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .24px;
+    color: #1f1f1f;
+    padding-right: 8px;
+    padding-left: 0;
+    border: 2px solid #10a310;
+}
+#w9{
+    box-sizing: content-box;
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    text-align: left;
+    color: #35495e;
+    margin-top: 5px;
+}
+#w10{
+    /* border-color: #10a310 transparent transparent !important; */
+    color: #10a310 !important;
+    /* position: relative;s */
+    right: 0;
+    top: 65%;
+    color: white;
+    margin-top: -5px;
+    border-color:  white transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+}
+#w11{
+    margin-left: 12px;
+}
+#w12{
+    font-family: IBM Plex Sans;
+    font-size: 14spx;
+    /* line-height: 24px; */
+    font-weight: 400;
+    color: #666;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 300px !important;
+    padding: 16px 12px;
+    /* margin-left: -330px; */
+    
+}
+#w13{
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    padding: 16px 20px;
+    background-color: #10a310;
+    width: 90%;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+    bottom: 0px;
+    max-width: 300px;
+}
